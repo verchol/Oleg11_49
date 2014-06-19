@@ -1,0 +1,10 @@
+ Volume in drive C is PC COE
+ Volume Serial Number is F8A0-E790
+
+ Directory of c:\Temp\samples\Oleg11_49
+
+06/19/2014  12:58 PM    <DIR>          .
+06/19/2014  12:58 PM    <DIR>          ..
+06/19/2014  12:58 PM                 0 oleg.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  14,253,277,184 bytes free

@@ -20,10 +20,10 @@ ls('*.js').forEach(function(file) {
 cd('..');
 */
 // Run external tool synchronously
-if (exec('git init').code !== 0) {
+/*if (exec('git init').code !== 0) {
   echo('Error: Git init failed');
   exit(1);
-}
+}*/
 // Run external tool synchronously
 if (exec('git add .').code !== 0) {
   echo('Error: Git add failed');

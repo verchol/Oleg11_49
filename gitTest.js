@@ -39,7 +39,7 @@ if (exec('git commit -m "Auto-commit"').code !== 0) {
      
 //git config --global credential.helper cache
  
-if (exec('git push origin master').code !== 0) {
+if (exec('git push github master').code !== 0) {
   echo('Error: Git commit failed');
   exit(1);
 }

@@ -34,7 +34,7 @@ if (exec('git commit -m "Auto-commit"').code !== 0) {
   echo('Error: Git commit failed');
   exit(1);
 }
- 
+  
 
      
 //git config --global credential.helper cache

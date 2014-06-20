@@ -36,7 +36,7 @@ if (exec('git commit -m "Auto-commit"').code !== 0) {
 }
  
 
-   
+     
 //git config --global credential.helper cache
  
 if (exec('git push origin master').code !== 0) {

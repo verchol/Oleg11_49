@@ -5,12 +5,7 @@ if (!which('git')) {
   exit(1);
 }
 
-// Copy files to release dir
-mkdir('-p', 'out/Release');
-cp('-R', 'stuff/*', 'out/Release');
-
-// Replace macros in each .js file
-cd('lib');
+ 
 /*
 ls('*.js').forEach(function(file) {
   sed('-i', 'v0.1.2', 'v0.1.2', file);
@@ -23,7 +18,7 @@ cd('..');
 /*if (exec('git init').code !== 0) {
   echo('Error: Git init failed');
   exit(1);
-}*/
+} 
 // Run external tool synchronously
 if (exec('git add .').code !== 0) {
   echo('Error: Git add failed');
@@ -35,7 +30,7 @@ if (exec('git commit -m "Auto-commit"').code !== 0) {
   exit(1);
 }
   
- 
+ */
      
 //git config --global cre dential.helper cache
  
